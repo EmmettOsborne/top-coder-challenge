@@ -1,0 +1,241 @@
+Number of data points: 1000
+Finding pairs that differ in only one input field...
+Pair 1:
+Data point 1:
+trip_duration_days: 1, miles_traveled: 140, total_receipts_amount: 22.71, expected_output: 199.68
+Data point 2:
+trip_duration_days: 1, miles_traveled: 140, total_receipts_amount: 255.99, expected_output: 150.34
+Differs in: total_receipts_amount
+
+Pair 2:
+Data point 1:
+trip_duration_days: 3, miles_traveled: 80, total_receipts_amount: 21.05, expected_output: 366.87
+Data point 2:
+trip_duration_days: 3, miles_traveled: 80, total_receipts_amount: 517.54, expected_output: 457.49
+Differs in: total_receipts_amount
+
+Pair 3:
+Data point 1:
+trip_duration_days: 5, miles_traveled: 477, total_receipts_amount: 704.42, expected_output: 1045.96
+Data point 2:
+trip_duration_days: 5, miles_traveled: 477, total_receipts_amount: 655.24, expected_output: 935.38
+Differs in: total_receipts_amount
+
+Pair 4:
+Data point 1:
+trip_duration_days: 11, miles_traveled: 927, total_receipts_amount: 1994.33, expected_output: 1779.12
+Data point 2:
+trip_duration_days: 11, miles_traveled: 927, total_receipts_amount: 1306.37, expected_output: 1804.68
+Differs in: total_receipts_amount
+
+Pair 5:
+Data point 1:
+trip_duration_days: 10, miles_traveled: 223, total_receipts_amount: 745.89, expected_output: 1037.45
+Data point 2:
+trip_duration_days: 10, miles_traveled: 223, total_receipts_amount: 886.32, expected_output: 1305.54
+Differs in: total_receipts_amount
+
+Pair 6:
+Data point 1:
+trip_duration_days: 3, miles_traveled: 981, total_receipts_amount: 341.45, expected_output: 813.95
+Data point 2:
+trip_duration_days: 3, miles_traveled: 981, total_receipts_amount: 2008.83, expected_output: 1539.47
+Differs in: total_receipts_amount
+
+Pair 7:
+Data point 1:
+trip_duration_days: 5, miles_traveled: 873, total_receipts_amount: 1402.35, expected_output: 1676.79
+Data point 2:
+trip_duration_days: 5, miles_traveled: 873, total_receipts_amount: 1584.53, expected_output: 1796.7
+Differs in: total_receipts_amount
+
+Pair 8:
+Data point 1:
+trip_duration_days: 9, miles_traveled: 524, total_receipts_amount: 474.75, expected_output: 935.4
+Data point 2:
+trip_duration_days: 9, miles_traveled: 524, total_receipts_amount: 2367.12, expected_output: 1640.78
+Differs in: total_receipts_amount
+
+Pair 9:
+Data point 1:
+trip_duration_days: 9, miles_traveled: 524, total_receipts_amount: 474.75, expected_output: 935.4
+Data point 2:
+trip_duration_days: 9, miles_traveled: 524, total_receipts_amount: 136.46, expected_output: 848.89
+Differs in: total_receipts_amount
+
+Pair 10:
+Data point 1:
+trip_duration_days: 1, miles_traveled: 620, total_receipts_amount: 973.91, expected_output: 1112.02
+Data point 2:
+trip_duration_days: 1, miles_traveled: 620, total_receipts_amount: 490.45, expected_output: 678.74
+Differs in: total_receipts_amount
+
+Pair 11:
+Data point 1:
+trip_duration_days: 5, miles_traveled: 516, total_receipts_amount: 1450.67, expected_output: 1547.5
+Data point 2:
+trip_duration_days: 5, miles_traveled: 516, total_receipts_amount: 1878.49, expected_output: 669.85
+Differs in: total_receipts_amount
+
+Pair 12:
+Data point 1:
+trip_duration_days: 12, miles_traveled: 211, total_receipts_amount: 1048.29, expected_output: 1579.73
+Data point 2:
+trip_duration_days: 12, miles_traveled: 211, total_receipts_amount: 749.56, expected_output: 1285.23
+Differs in: total_receipts_amount
+
+Pair 13:
+Data point 1:
+trip_duration_days: 11, miles_traveled: 741, total_receipts_amount: 1872.39, expected_output: 1847.08
+Data point 2:
+trip_duration_days: 11, miles_traveled: 741, total_receipts_amount: 1207.39, expected_output: 1878.06
+Differs in: total_receipts_amount
+
+Pair 14:
+Data point 1:
+trip_duration_days: 9, miles_traveled: 524, total_receipts_amount: 2367.12, expected_output: 1640.78
+Data point 2:
+trip_duration_days: 9, miles_traveled: 524, total_receipts_amount: 136.46, expected_output: 848.89
+Differs in: total_receipts_amount
+
+Pair 15:
+Data point 1:
+trip_duration_days: 7, miles_traveled: 623, total_receipts_amount: 1691.39, expected_output: 1800.86
+Data point 2:
+trip_duration_days: 7, miles_traveled: 623, total_receipts_amount: 1894.02, expected_output: 1739.49
+Differs in: total_receipts_amount
+
+Pair 16:
+Data point 1:
+trip_duration_days: 12, miles_traveled: 218, total_receipts_amount: 486.02, expected_output: 1005.67
+Data point 2:
+trip_duration_days: 12, miles_traveled: 218, total_receipts_amount: 901.03, expected_output: 1371.86
+Differs in: total_receipts_amount
+
+Pair 17:
+Data point 1:
+trip_duration_days: 9, miles_traveled: 938, total_receipts_amount: 2224.29, expected_output: 1913.87
+Data point 2:
+trip_duration_days: 9, miles_traveled: 938, total_receipts_amount: 742.17, expected_output: 1632.1
+Differs in: total_receipts_amount
+
+Pair 18:
+Data point 1:
+trip_duration_days: 4, miles_traveled: 842, total_receipts_amount: 2464.29, expected_output: 1611.66
+Data point 2:
+trip_duration_days: 4, miles_traveled: 842, total_receipts_amount: 893.25, expected_output: 1324.64
+Differs in: total_receipts_amount
+
+Pair 19:
+Data point 1:
+trip_duration_days: 5, miles_traveled: 781, total_receipts_amount: 672.91, expected_output: 1125.36
+Data point 2:
+trip_duration_days: 5, miles_traveled: 781, total_receipts_amount: 2114.27, expected_output: 1789.85
+Differs in: total_receipts_amount
+
+Pair 20:
+Data point 1:
+trip_duration_days: 5, miles_traveled: 831, total_receipts_amount: 591.65, expected_output: 1090.31
+Data point 2:
+trip_duration_days: 5, miles_traveled: 831, total_receipts_amount: 432.8, expected_output: 901.36
+Differs in: total_receipts_amount
+
+Pair 21:
+Data point 1:
+trip_duration_days: 11, miles_traveled: 667, total_receipts_amount: 1915.95, expected_output: 1732.2
+Data point 2:
+trip_duration_days: 11, miles_traveled: 667, total_receipts_amount: 2221.67, expected_output: 1872.89
+Differs in: total_receipts_amount
+
+Pair 22:
+Data point 1:
+trip_duration_days: 7, miles_traveled: 671, total_receipts_amount: 1297.02, expected_output: 1703.2
+Data point 2:
+trip_duration_days: 7, miles_traveled: 671, total_receipts_amount: 1262.85, expected_output: 1600.42
+Differs in: total_receipts_amount
+
+Pair 23:
+Data point 1:
+trip_duration_days: 3, miles_traveled: 289, total_receipts_amount: 1245.67, expected_output: 1279.31
+Data point 2:
+trip_duration_days: 3, miles_traveled: 289, total_receipts_amount: 853.79, expected_output: 969.85
+Differs in: total_receipts_amount
+
+Pair 24:
+Data point 1:
+trip_duration_days: 9, miles_traveled: 800, total_receipts_amount: 2167.72, expected_output: 1726.51
+Data point 2:
+trip_duration_days: 9, miles_traveled: 800, total_receipts_amount: 39.96, expected_output: 1158.68
+Differs in: total_receipts_amount
+
+Pair 25:
+Data point 1:
+trip_duration_days: 10, miles_traveled: 5, total_receipts_amount: 836.86, expected_output: 1116.56
+Data point 2:
+trip_duration_days: 10, miles_traveled: 5, total_receipts_amount: 1338.9, expected_output: 1610.25
+Differs in: total_receipts_amount
+
+Pair 26:
+Data point 1:
+trip_duration_days: 10, miles_traveled: 5, total_receipts_amount: 836.86, expected_output: 1116.56
+Data point 2:
+trip_duration_days: 10, miles_traveled: 5, total_receipts_amount: 1094.06, expected_output: 1361.08
+Differs in: total_receipts_amount
+
+Pair 27:
+Data point 1:
+trip_duration_days: 5, miles_traveled: 716, total_receipts_amount: 1111.23, expected_output: 1492.08
+Data point 2:
+trip_duration_days: 5, miles_traveled: 716, total_receipts_amount: 1316.6, expected_output: 1686.98
+Differs in: total_receipts_amount
+
+Pair 28:
+Data point 1:
+trip_duration_days: 14, miles_traveled: 865, total_receipts_amount: 2497.16, expected_output: 1885.87
+Data point 2:
+trip_duration_days: 14, miles_traveled: 865, total_receipts_amount: 1422.11, expected_output: 1921.18
+Differs in: total_receipts_amount
+
+Pair 29:
+Data point 1:
+trip_duration_days: 10, miles_traveled: 5, total_receipts_amount: 1338.9, expected_output: 1610.25
+Data point 2:
+trip_duration_days: 10, miles_traveled: 5, total_receipts_amount: 1094.06, expected_output: 1361.08
+Differs in: total_receipts_amount
+
+Pair 30:
+Data point 1:
+trip_duration_days: 7, miles_traveled: 381, total_receipts_amount: 2106.96, expected_output: 1705.27
+Data point 2:
+trip_duration_days: 7, miles_traveled: 381, total_receipts_amount: 2342.27, expected_output: 1705.24
+Differs in: total_receipts_amount
+
+Pair 31:
+Data point 1:
+trip_duration_days: 14, miles_traveled: 595, total_receipts_amount: 2140.61, expected_output: 1989.13
+Data point 2:
+trip_duration_days: 14, miles_traveled: 595, total_receipts_amount: 1818.77, expected_output: 1889.9
+Differs in: total_receipts_amount
+
+Pair 32:
+Data point 1:
+trip_duration_days: 11, miles_traveled: 293, total_receipts_amount: 1410, expected_output: 1673.7
+Data point 2:
+trip_duration_days: 11, miles_traveled: 293, total_receipts_amount: 285.14, expected_output: 966.87
+Differs in: total_receipts_amount
+
+Pair 33:
+Data point 1:
+trip_duration_days: 14, miles_traveled: 1020, total_receipts_amount: 510.33, expected_output: 1406.95
+Data point 2:
+trip_duration_days: 14, miles_traveled: 1020, total_receipts_amount: 1201.75, expected_output: 2337.73
+Differs in: total_receipts_amount
+
+Pair 34:
+Data point 1:
+trip_duration_days: 12, miles_traveled: 59, total_receipts_amount: 2247.39, expected_output: 1629.92
+Data point 2:
+trip_duration_days: 12, miles_traveled: 59, total_receipts_amount: 858.62, expected_output: 1377.35
+Differs in: total_receipts_amount
+
+Total number of pairs that differ in only one input field: 34
