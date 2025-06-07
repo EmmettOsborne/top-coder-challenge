@@ -53,7 +53,7 @@ echo
 
 # Extract all test data upfront in a single jq call for better performance
 echo "Extracting test data..."
-test_data=$(jq -r '.[] | "\(.input.trip_duration_days):\(.input.miles_traveled):\(.input.total_receipts_amount):\(.expected_output)"' public_cases.json)
+test_data=$(jq -r '.[] | "\(.input.trip_duration_days):\(.input.miles_traveled):\(.input.total_receipts_amount):\(.expected_output)"' public_cases.json | tr -d '\r')
 
 # Convert to arrays for faster access (compatible with bash 3.2+)
 test_cases=()
