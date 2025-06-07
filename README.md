@@ -1,3 +1,25 @@
+# Emmett Osborne - Submission 1
+
+- eval.sh score: 10239
+
+- Approach: Symbolic Regression
+
+## About Me:
+
+I'm a CS New Grad from Montana State University (Bozeman). Stumbled on this challenge and had a few hours to kill, so I gave it a shot! While this isn't exactly my area of expertise (robotics, RL), I knew enough about Symbolic Regression that I figured I could get a half-decent answer. Symbolic Regression is a tool I've always wanted a reason to play with, and you gave me the chance!
+
+The score I achieved on the eval suggests I'm not terribly far off considering my limited time and experience, but I can definitely tell I am definitely overfitting the data. If I was more familiar with the tools and/or I had more time, I am confident I could find the answer.
+
+Some things to note:
+
+- I used Grok to handle some of the menial coding, the link to that chat history is here: [Grok History Link](https://grok.com/share/bGVnYWN5_70de948f-f0e5-4b19-b6c2-5b58f4bac11a)
+- I also had to modify `eval.sh` to remove the carriage return from the extracted test data - line 56 if for whatever reason you need to know that.
+
+Fresh out of college, I am currently in the middle of job hunting. If you have any advice or if you are able to put me in contact with any recruiters/companies that you believe I would be a good fit at, please reach out!
+
+Thank you for your time, and thank you for the fun puzzle!  
+Emmett Osborne
+
 # Top Coder Challenge: Black Box Legacy Reimbursement System
 
 **Reverse-engineer a 60-year-old travel reimbursement system using only historical data and employee interviews.**
