@@ -15,20 +15,21 @@ y = np.array([item['expected_output'] for item in data])
 # Print data shape to confirm loading
 print(f"Loaded {len(data)} data points with {X.shape[1]} features each.")
 
-# Initialize PySRRegressor with basic configuration
+# Initialize PySRRegressor
 model = PySRRegressor(
-    maxsize=500,                    # Limit expression complexity
-    niterations=2000,                # Number of search iterations
-    binary_operators=["+", "*", "-", "/"],  # Basic arithmetic operators
+    maxsize=40,
+    niterations=200,
+    binary_operators=["+", "*", "-", "/", "max", "min"],  # Added max and min for conditional behavior - duh!
     unary_operators=[
-        "square(x) = x^2",         # Custom square function
-        "cube(x) = x^3",           # Custom cube function
-        "sqrt",                    # Square root (built-in Julia)
-        "exp",                     # Exponential (built-in Julia)
-        "log"                      # Natural logarithm (built-in Julia)
+        "square(x) = x^2",
+        "cube(x) = x^3",
+        "sqrt",
+        "exp",
+        "log"
     ],
-    extra_sympy_mappings={"square": lambda x: x**2, "cube": lambda x: x**3},  # SymPy mappings for custom operators
-    elementwise_loss="loss(prediction, target) = (prediction - target)^2"     # Squared error loss
+    extra_sympy_mappings={"square": lambda x: x**2, "cube": lambda x: x**3},
+    elementwise_loss="loss(prediction, target) = (prediction - target)^2",
+    precision=64
 )
 
 # Fit the model to the data

@@ -1,6 +1,6 @@
-# Emmett Osborne - Submission 1
+# Emmett Osborne - Submission 2
 
-- eval.sh score: 10239
+- eval.sh score: 8521
 
 - Approach: Symbolic Regression
 
@@ -9,6 +9,8 @@
 I'm a CS New Grad from Montana State University (Bozeman). Stumbled on this challenge and had a few hours to kill, so I gave it a shot! While this isn't exactly my area of expertise (robotics, RL), I knew enough about Symbolic Regression that I figured I could get a half-decent answer. Symbolic Regression is a tool I've always wanted a reason to play with, and you gave me the chance!
 
 The score I achieved on the eval suggests I'm not terribly far off considering my limited time and experience, but I can definitely tell I am definitely overfitting the data. If I was more familiar with the tools and/or I had more time, I am confident I could find the answer.
+
+Second submission uses a modified model, which notably improved the eval score. Resubmitted!
 
 Some things to note:
 

@@ -4,19 +4,30 @@ import math
 # print(f"Received inputs: days={sys.argv[1]}, miles={sys.argv[2]}, receipts={sys.argv[3]}")
 
 def calculate_reimbursement(days, miles, receipts):
-    if days <= 0:
-        raise ValueError("trip_duration_days must be greater than 0")
-    if receipts < 0:
-        raise ValueError("total_receipts_amount cannot be negative")
+    x0 = days
+    x1 = miles
+    x2 = receipts
     
-    term1 = 0.44936344 * miles
-    term2 = -0.44936344 * receipts
-    term3 = 253.735503207516 * math.log(97518.23 * days)
-    term4 = 168.28207 * math.log((receipts + 145.86661)**3)
-    term5 = 168.28207 * math.log((receipts - 404.10373)**2 + 16155.376)
-    constant = -7440.1996278269
+    # Constants
+    A = 22.757409493611178  # Coefficient for x0
+    B = 0.35684298303001777  # Coefficient for x1
+    C = 379.6973286153752    # Threshold for x2
+    D = 1331.322873040726    # Cap value for PW1
+    E = 48.039398955855596   # Coefficient for x0 in PW2
+    F = 293.2196305720263    # Constant in PW2
+    G = -34.32244823213331   # Cap value for PW2
     
-    reimbursement = term1 + term2 + term3 + term4 + term5 + constant
+    # Compute intermediate term S = x0 * sqrt(x1)
+    S = x0 * math.sqrt(x1)
+    
+    # PW1: min(x0 * sqrt(x1) + max(x2, C), D)
+    PW1 = min(S + max(x2, C), D)
+    
+    # PW2: min(E * x0 - F, G)
+    PW2 = min(E * x0 - F, G)
+    
+    # Total reimbursement
+    reimbursement = A * x0 + B * x1 + PW1 + PW2
     return reimbursement
 
 if __name__ == "__main__":
